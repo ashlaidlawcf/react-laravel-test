@@ -4,7 +4,7 @@ import Axios from 'axios';
 import AddFollowers from './AddFollowers';
 import Following from './Following';
 
-function App() {
+const App = () => {
     const [areUsersLoaded, setAreUsersLoaded] = useState(false);
     const [users, setUsers] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);
